@@ -1,1 +1,7 @@
-# SEC_filing_data_extraction
+# SEC Filing Automated Data Extraction
+
+Investment companies must make important decisions in regards to which corporations to invest in and which bonds will be worthwhile based on a variety of factors including value, corporation, length of the corporate bond, and interest rate. This information is contained in a required SEC filing form 424B that can be found online and new forms are uploaded daily. Unfortunately, there is no set format for these forms so extracting the necessary information can be tedious and challenging.
+
+The goal of this project was to develop a way to automatically extract the important information from each SEC filing, regardless of the file format. The data can then be compiled into a single document that can be referred to by the user to quickly understand and identify which corporate bonds are worth pursuing and investing in much more quickly.
+
+The final product is a code that is able to pull out a list of all files contained in a specific folder where the SEC filing forms have been downloaded into, search through each file, and return the information for each file as a seperate row in a document. My portion of the project created the method to run through all the files and then to extract the International Securities Identification Number (ISIN), CUSIP Number, and whether the bond is offered at a fixed or floating interest rate.
